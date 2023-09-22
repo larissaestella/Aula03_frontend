@@ -1,49 +1,71 @@
 <!DOCTYPE html>
-<head>
-    <title>Google</title>
-    <!-- tag para titulo da página-->
-</head>
-<body>
-    Gmail
-    Imagens
-    <!--Tags de formulários botões-->
-    <input type="button" value="Apps"> <!--html4-->
-    <button>Entrar</button> <!--html-->
-    <br>
-    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
-    <br>
-    <!--Tag para caixa de texto de um formulario-->
-    <input type="text">
-    <br>
-    <input type="button" value="Pesquisa Google">
-    <button>Sinto-me com sorte</button>
-    <br>
-    Disponibilizado pelo Google em:
-    <a href="https://www.google.com/setprefs?sig=0_PUr5ivuKg2m1rXkltZdJh3Hcj-8%3D&hl=pt-BR&source=homepage&sa=X&ved=0ahUKEwiZgqarw6yBAxXVLbkGHQ8iBp0Q2ZgBCBE">Português (Brasil)</a>
-    <br><br><br><br><br>
-    Brasil
-    <br>
-    <a href="https://about.google/?utm_source=google-BR&utm_medium=referral&utm_campaign=hp-footer&fg=1">Sobre</a>
-    <a href="https://www.google.com/intl/pt-PT_br/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidade</a>
-    <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Negócios</a>
-    <!--Caracteres especiais no HTML-->
-    <!--https://www.w3schools.com/html/html_entities.asp-->
-    <!--&nbsp; Esse caracter representa o espaço-->
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="https://google.com/search/howsearchworks/?fg=1">Como funciona a Pesquisa</a>
-    <a href="https://policies.google.com/privacy?hl=pt-PT&fg=1">Privacidade</a>
-    <a href="https://policies.google.com/terms?hl=pt-PT&fg=1">Termos</a>
-    <a href="">Definições</a>
-
-    <!-- Tag de script-->
-    <script>
-        //JS
-        alert('Olá mundo');
-        /*
-        Comen em varias linhas
-        */
-    </script>
-</body>
 <html>
+    <body style="background-color: rgb(243, 253, 253);">
+
+        <!--Lista sem ordenação-->
+        <ul>
+            <li>A</li>
+            <li>B</li>
+            <li>C</li>
+        </ul>
+        
+        <!--Lista ordenada-->
+        <ol>
+            <li>A</li>
+            <li>B</li>
+            <li>C</li>
+        </ol>
+
+        <!--Quebra de conteúdo-->
+        <hr>
+         
+        <!--Tabela usada para demonstração de conteúdo-->
+        <table border="10">
+            <tr>
+                <td>Célula 1</td>
+                <td>Célula 2</td>
+                <td>Célula 3</td>
+            </tr>
+            <tr>
+                <td>Célula 4</td>
+                <td>Célula 5</td>
+                <td>Célula 6</td>
+            </tr>
+            <tr>
+                <td>Célula 7</td>
+                <td>Célula 8</td>
+                <td>Célula 9</td>
+            </tr>
+
+        </table>
+
+        <hr>
+        <!--span serve para programação em um pedaço de conteúdo textual-->
+        <!--exemplo de evento em um span-->
+        TESTE 1 <span onclick="F()" style="background-color: aquamarine;"> TESTE 2 </span> TESTE 3
+        
+        <p> Paragráfo - um conceito ou descrição de algo</p>
+        
+        <hr>
+        <!--Div é uma camada dentro do conteúdo de HTML que serve para organização de componentes-->
+        <!--a propriedade style representa o CSS no formato INLINE(significa formatação pontual na tag)-->
+        <!-- a propriedade background-color representa a foramtação da cor de fundo de um componente HTML-->
+
+        <div style="background-color: lightblue; position: absolute; top: 0px; left:0px;">
+            Esta é uma camada que agrupa elementos em tela/frame/screen.
+        </div>
+
+        
+        <div style="background-color: lightgreen; position: absolute; top: 20px; left: 0px;">
+            Div interna 1 
+        </div>
+
+
+        <!--exemplo de evento na tag span-->
+        <script>
+            function F(){
+                alert("teste");
+            }
+        </script>
+    </body>
+</html>
