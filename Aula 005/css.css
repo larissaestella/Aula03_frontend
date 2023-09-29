@@ -1,0 +1,13 @@
+/*TAG*/
+article{
+    background-color: blue;
+}
+/*CLASSE*/
+.fonte{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 12px;
+    background-color: red
+}
+#id2{
+    background-color: green;
+}
