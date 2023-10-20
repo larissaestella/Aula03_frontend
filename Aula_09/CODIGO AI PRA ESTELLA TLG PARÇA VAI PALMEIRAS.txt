@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* Um Agrupamento de componentes */
+    /* display */
+
+    /* absolut é em relação a tela | relative é em relação aonde ela está */
+    .container{         
+        display: block;
+        background-color: bisque;
+        margin: 10px 10px;
+        width: 400px;
+        height: 150px;
+    }
+
+
+    /* Display = como ele se apresenta | position: como ele se posiciona em relação  pagina */
+
+    .item{
+        /* margin position absolut */
+        margin: 10px;
+        background-color: lightgreen;
+        padding: 10px;
+        border: 10px solid black;
+
+    }
+
+
+</style>
+<body>
+    
+    teste Bloco - box
+    <div class="container">
+        <p class="item"> Teste 1 </p>
+    </div>
+</body>
+</html>
+
+
+/*-----------------------------------------------------------------------------*/
+/*!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            /* container/painel/
+             um agrupamento de componentes */
+             /* display */
+            .container{
+                display: block;
+                background-color: bisque;
+                margin-top: 10px;
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-bottom: 10px;
+                padding: 10px;
+                width: 400px;
+                /* height: 150px;  */
+            }
+
+            .item{
+                /* margin position absolute (em relação a página) */
+                background-color: lightgreen;
+                 /* borda : contorno do conteúdo */
+                border: 10px solid black;
+                /* padding espaçamento entre borda e conteúdo */
+                padding: 30px;
+
+            }
+
+        </style>
+
+    </head>
+    <body>
+
+        Bloco - Box
+        <div class="container">
+            <p class="item"> Teste 1 </p>
+            <p class="item"> Teste 1 </p>
+        </div>
+
+    </body>
+</html>*/

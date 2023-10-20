@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* Um Agrupamento de componentes */
+    /* display */
+
+    /* absolut é em relação a tela | relative é em relação aonde ela está */
+    .pai{         
+        display: block;
+        background-color: bisque;
+        margin: 10px;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        padding: 100px;
+        width: 400px;
+        height: 150px;
+    }
+
+
+    /* Display: como ele se apresenta | position: como ele se posiciona em relação  pagina */
+
+    .filho{
+        /* margin position absolut (em relação a página)*/
+            margin: 10px;
+            margin-top: 20px;
+        background-color: lightgreen;
+    /* padding espaçamento entre borda e conteúdo*/
+            padding: 10px;
+    /* border: contorno do conteudo */
+        border: 10px solid black;
+
+    }
+
+
+</style>
+<body>
+    
+    teste Bloco - box
+    <div class="pai">
+        <p class="filho"> Teste 1 </p>
+    </div>
+</body>
+</html>
